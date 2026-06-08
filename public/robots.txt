@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap link for Search Console
+Sitemap: https://chirag.dev/sitemap.xml
