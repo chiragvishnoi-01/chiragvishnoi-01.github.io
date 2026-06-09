@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap link for Search Console
 Sitemap: https://chiragvishnoi-01.github.io/chirag.dev/sitemap.xml
