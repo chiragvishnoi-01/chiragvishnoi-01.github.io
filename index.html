@@ -55,7 +55,7 @@
   <link rel="apple-touch-icon" href="/favicon.svg" />
   <link rel="manifest" href="/manifest.json" />
 
-  <!-- Structured Data (JSON-LD Schema) for Google Search -->
+  <!-- Structured Data (JSON-LD Schema) for Google Search — WebSite -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -63,18 +63,91 @@
       "@id": "https://chiragvishnoi-01.github.io/#website",
       "url": "https://chiragvishnoi-01.github.io/",
       "name": "Chirag Vishnoi",
-      "description": "Official Portfolio of Chirag Vishnoi - Full Stack Developer & WordPress Wizard",
+      "alternateName": ["chirag.dev", "chiragvishnoi-01"],
+      "description": "Official Portfolio of Chirag Vishnoi — Full Stack Developer, React Developer & WordPress Wizard.",
       "inLanguage": "en-US",
       "publisher": {
         "@type": "Person",
-        "name": "Chirag Vishnoi",
-        "url": "https://chiragvishnoi-01.github.io/",
-        "sameAs": [
-          "https://www.linkedin.com/in/chiragvishnoi01/",
-          "https://github.com/chiragvishnoi-01",
-          "https://instagram.com/chiragvishnoi01"
-        ],
-        "jobTitle": "Full Stack Developer & WordPress Wizard"
+        "@id": "https://chiragvishnoi-01.github.io/#person"
+      }
+    }
+  </script>
+
+  <!-- Structured Data (JSON-LD Schema) for Google Search — Person (Knowledge Panel) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://chiragvishnoi-01.github.io/#person",
+      "name": "Chirag Vishnoi",
+      "alternateName": "chirag.dev",
+      "url": "https://chiragvishnoi-01.github.io/",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://github.com/chiragvishnoi-01.png",
+        "width": 400,
+        "height": 400
+      },
+      "description": "Chirag Vishnoi is an AI-ready Full Stack Web Developer, React Developer, and WordPress Wizard. B.Tech student building modern, scalable web solutions using React, Node.js, Three.js, and MongoDB.",
+      "jobTitle": "Full Stack Developer & WordPress Wizard",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance / Open Source"
+      },
+      "knowsAbout": [
+        "Full Stack Development",
+        "React.js",
+        "Node.js",
+        "JavaScript",
+        "TypeScript",
+        "WordPress",
+        "Three.js",
+        "MongoDB",
+        "Web Development",
+        "AI Integration"
+      ],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "B.Tech (Computer Science)"
+      },
+      "nationality": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/chiragvishnoi01/",
+        "https://github.com/chiragvishnoi-01",
+        "https://instagram.com/chiragvishnoi01",
+        "https://chiragvishnoi-01.github.io/"
+      ],
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://chiragvishnoi-01.github.io/#about",
+        "name": "About Chirag Vishnoi",
+        "url": "https://chiragvishnoi-01.github.io/#about",
+        "description": "Learn about Chirag Vishnoi — Full Stack Developer from India, skilled in React, Node.js, WordPress, Three.js, and modern web technologies."
+      }
+    }
+  </script>
+
+  <!-- Structured Data — About Page -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "@id": "https://chiragvishnoi-01.github.io/#about",
+      "url": "https://chiragvishnoi-01.github.io/#about",
+      "name": "About Chirag Vishnoi — Full Stack Developer",
+      "description": "Chirag Vishnoi is a B.Tech student and Full Stack Developer from India. He specializes in React, Node.js, WordPress, Three.js, and building AI-integrated web applications.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://chiragvishnoi-01.github.io/#website"
+      },
+      "about": {
+        "@id": "https://chiragvishnoi-01.github.io/#person"
+      },
+      "author": {
+        "@id": "https://chiragvishnoi-01.github.io/#person"
       }
     }
   </script>
