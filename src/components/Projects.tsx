@@ -1,39 +1,51 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import raktchainHomePic from '../../raktchian_home_pic.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   { 
+    title: 'Raktchain', 
+    desc: 'A decentralized blood donation platform bridging the gap between donors and recipients. Features real-time donor matchmaking, emergency SOS request triggers, and automated blood bank inventory tracking.', 
+    img: raktchainHomePic,
+    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
+    link: 'https://raktchain.vercel.app/'
+  },
+  { 
     title: 'Web Shooter App', 
     desc: 'A real-time targeting system built with WebSockets and Three.js for spatial tracking.', 
     img: 'https://picsum.photos/seed/spidertech/800/600',
-    tags: ['React', 'Three.js', 'WebSockets']
+    tags: ['React', 'Three.js', 'WebSockets'],
+    link: '#'
   },
   { 
     title: 'Daily Bugle Portal', 
     desc: 'High-traffic news platform with Next.js and ISR. Handles millions of concurrent readers.', 
     img: 'https://picsum.photos/seed/newspaper/800/600',
-    tags: ['Next.js', 'Tailwind', 'GraphQL']
+    tags: ['Next.js', 'Tailwind', 'GraphQL'],
+    link: '#'
   },
   { 
     title: 'Oscorp Dashboard', 
     desc: 'Complex data visualization for enterprise metrics. Secure and highly performant.', 
     img: 'https://picsum.photos/seed/dashboard/800/600',
-    tags: ['Vue', 'D3.js', 'Node.js']
+    tags: ['Vue', 'D3.js', 'Node.js'],
+    link: '#'
   },
   { 
     title: 'Stark Integration', 
     desc: 'API gateway connecting various microservices across the Avengers network.', 
     img: 'https://picsum.photos/seed/stark/800/600',
-    tags: ['TypeScript', 'Express', 'Redis']
+    tags: ['TypeScript', 'Express', 'Redis'],
+    link: '#'
   },
 ];
 
 export function Projects() {
   const sectionRef = useRef<HTMLElement>(null);
-  const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
+  const cardsRef = useRef<(HTMLElement | null)[]>([]);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -119,10 +131,13 @@ export function Projects() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {projects.map((project, i) => (
-            <div
+            <a
               key={i}
+              href={project.link}
+              target={project.link !== '#' ? '_blank' : undefined}
+              rel={project.link !== '#' ? 'noopener noreferrer' : undefined}
               ref={(el) => { cardsRef.current[i] = el; }}
-              className="group relative h-[400px] rounded-2xl cursor-pointer hover-target"
+              className="group relative h-[400px] rounded-2xl cursor-pointer hover-target block text-left"
               style={{ perspective: '1000px' }}
             >
               <div className="tilt-content w-full h-full relative transform-style-3d transition-transform duration-200 ease-out rounded-2xl overflow-hidden border border-white/10 bg-black/50 backdrop-blur-sm">
@@ -168,7 +183,7 @@ export function Projects() {
                   <path d="M40 0 A 40 40 0 0 0 100 60" fill="none" />
                 </svg>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
