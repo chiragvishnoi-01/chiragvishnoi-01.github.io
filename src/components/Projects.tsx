@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import raktchainHomePic from '../../raktchian_home_pic.png';
+import engeniousHomePic from '../../engenious26_home_pic.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -14,32 +15,11 @@ const projects = [
     link: 'https://raktchain.vercel.app/'
   },
   { 
-    title: 'Web Shooter App', 
-    desc: 'A real-time targeting system built with WebSockets and Three.js for spatial tracking.', 
-    img: 'https://picsum.photos/seed/spidertech/800/600',
-    tags: ['React', 'Three.js', 'WebSockets'],
-    link: '#'
-  },
-  { 
-    title: 'Daily Bugle Portal', 
-    desc: 'High-traffic news platform with Next.js and ISR. Handles millions of concurrent readers.', 
-    img: 'https://picsum.photos/seed/newspaper/800/600',
-    tags: ['Next.js', 'Tailwind', 'GraphQL'],
-    link: '#'
-  },
-  { 
-    title: 'Oscorp Dashboard', 
-    desc: 'Complex data visualization for enterprise metrics. Secure and highly performant.', 
-    img: 'https://picsum.photos/seed/dashboard/800/600',
-    tags: ['Vue', 'D3.js', 'Node.js'],
-    link: '#'
-  },
-  { 
-    title: 'Stark Integration', 
-    desc: 'API gateway connecting various microservices across the Avengers network.', 
-    img: 'https://picsum.photos/seed/stark/800/600',
-    tags: ['TypeScript', 'Express', 'Redis'],
-    link: '#'
+    title: "ENGENIOUS '26", 
+    desc: 'The ultimate Techno-Cultural Fest of Kanpur Institute of Technology, Kanpur. Celebrating innovation, technology, and the infinite possibilities of the future.', 
+    img: engeniousHomePic,
+    tags: ['React', 'Vite', 'Tailwind CSS', 'TypeScript', 'Framer Motion'],
+    link: 'https://engenirous26.vercel.app/'
   },
 ];
 
