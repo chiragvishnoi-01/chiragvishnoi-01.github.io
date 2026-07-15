@@ -1,0 +1,9 @@
+@echo off
+echo Staging all changes (including untracked images)...
+git add .
+echo Committing changes...
+git commit -m "fix: add project preview images and resolve build issues"
+echo Pushing to remote repository...
+git push origin main
+echo Done! Please check GitHub Actions.
+pause
