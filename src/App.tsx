@@ -4,6 +4,7 @@ import { Canvas } from '@react-three/fiber';
 import { Loader } from './components/Loader';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
+import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
 import { Blog } from './components/Blog';
 import { Skills } from './components/Skills';
@@ -54,6 +55,7 @@ export default function App() {
           <div className="hidden md:flex gap-8 font-mono text-sm uppercase tracking-widest text-white">
             <a href="#home" className="hover:text-red-500 transition-colors hover-target">Home</a>
             <a href="#about" className="hover:text-red-500 transition-colors hover-target">Origin</a>
+            <a href="#experience" className="hover:text-red-500 transition-colors hover-target">Experience</a>
             <a href="#projects" className="hover:text-red-500 transition-colors hover-target">Missions</a>
             <a href="#contact" className="hover:text-red-500 transition-colors hover-target">Comms</a>
           </div>
@@ -74,6 +76,7 @@ export default function App() {
       <div className="relative z-10 w-full">
         <Hero />
         <About />
+        <Experience />
         <Projects />
         <Skills />
         <Blog />
