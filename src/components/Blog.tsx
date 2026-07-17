@@ -98,7 +98,7 @@ export function Blog() {
                 
                 <div className="flex justify-between items-center mb-4 pt-2">
                   <span className="text-xs font-bold text-red-500 uppercase tracking-wider bg-red-500/10 px-2 py-1 rounded">{article.category}</span>
-                  <span className="text-xs text-gray-500 font-mono">{article.date}</span>
+                  <span className="text-xs text-gray-400 font-mono">{article.date}</span>
                 </div>
                 
                 <h3 className="text-2xl font-black font-display text-white mb-3 uppercase tracking-tight group-hover:text-red-400 transition-colors">

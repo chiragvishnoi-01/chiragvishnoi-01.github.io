@@ -1,63 +1,19 @@
 # Chirag Vishnoi
 
-> Official portfolio of Chirag Vishnoi (chirag.dev) - Full Stack Web Developer, React Developer & WordPress Wizard.
+> Official portfolio of Chirag Vishnoi — Full Stack Web Developer, React Developer, & WordPress Wizard.
 
-This file provides a structured representation of the site's contents, achievements, projects, and tech stack for LLMs, search engines, and web scrapers.
+This file provides a structured index of the website contents and developer information for AI search agents and Large Language Models.
 
-## Profile Summary
-- **Name:** Chirag Vishnoi
-- **Job Title:** Full Stack Developer & WordPress Wizard
-- **Education:** B.Tech (Computer Science), India
-- **Website:** https://chiragvishnoi-01.github.io/
-- **LinkedIn:** https://www.linkedin.com/in/chiragvishnoi01/
-- **GitHub:** https://github.com/chiragvishnoi-01
+## Primary Resources
+- [Portfolio Homepage](https://chiragvishnoi-01.github.io/): The main portfolio landing page containing the full 3D interactive experience.
+- [LinkedIn Connect](https://www.linkedin.com/in/chiragvishnoi01/): Professional network, workspace details, and community contributions.
+- [GitHub Repositories](https://github.com/chiragvishnoi-01): Source code, open-source projects, and developer contributions.
 
----
+## Active Projects & Missions
+- [Raktchain Platform](https://raktchain.vercel.app/): Decentralized blood donation network bridging the gap between donors and recipients. Built using React, Node.js, Express, MongoDB, and Tailwind CSS.
+- [ENGENIOUS '26 Web Portal](https://engenirous26.vercel.app/): The official website for the Techno-Cultural Fest of Kanpur Institute of Technology, Kanpur.
 
-## Core Tech Arsenal
-- **Languages:** JavaScript, TypeScript
-- **Frontend Frameworks & Libraries:** React.js, Vite, GSAP (animations), Three.js (3D graphics)
-- **Backend & Databases:** Node.js, Express, MongoDB
-- **Content Management Systems (CMS):** WordPress (architectures, custom customizer settings, and themes)
-
----
-
-## Professional Missions & Experience
-
-### Core Developer & Community Member
-**Kanpur AI** | *Jul 2024 - Present*
-- Engineered responsive web applications and landing pages for local AI developer meetups and events.
-- Collaborated on building community platforms using modern frameworks like React and Vite.
-- Fostered the growth of AI technologies in Kanpur by organizing hackathons, tech talks, and meetups.
-
-### Technical Lead & Developer
-**NSOC (Network Security & Open Source Club)** | *Oct 2023 - Present*
-- Led development initiatives for security-focused and open-source applications.
-- Conducted workshops on Git, web development, and secure coding practices for over 100+ students.
-- Maintained internal club repositories and mentored junior web developers.
-
-### Freelance Full-Stack Developer
-**Self-Employed** | *Jan 2023 - Present*
-- Delivered 10+ custom client websites ranging from WordPress architectures to fully bespoke React applications.
-- Designed SEO-optimized, highly responsive user interfaces with focus on user conversion rates.
-- Managed full deployment cycles, backend logic integration, and local database storage setups.
-
----
-
-## Featured Projects (Missions)
-
-### 1. Raktchain
-- **Description:** A decentralized blood donation platform bridging the gap between donors and recipients. Features real-time donor matchmaking, emergency SOS request triggers, and automated blood bank inventory tracking.
-- **URL:** https://raktchain.vercel.app/
-- **Stack:** React, Node.js, Express, MongoDB, Tailwind CSS
-
-### 2. ENGENIOUS '26
-- **Description:** The ultimate Techno-Cultural Fest of Kanpur Institute of Technology, Kanpur. Celebrating innovation, technology, and the infinite possibilities of the future.
-- **URL:** https://engenirous26.vercel.app/
-- **Stack:** React, Vite, Tailwind CSS, TypeScript, Framer Motion
-
----
-
-## Key Achievements & Accomplishments
-- **Aviothic 2.0 Hackathon (Jan 2025):** 🏆 Runner-Up (2nd Place) - Designed and coded an advanced web application targeting aviation problems, finishing 2nd out of dozens of competing engineering teams in an intensive 36-hour sprint.
-- **LinkedIn Tech Community Contributor (Continuous):** Actively documenting development progress, building networks with industry leaders, and promoting technical education in AI and open-source.
+## Professional Experience
+- [Kanpur AI Profile](https://chiragvishnoi-01.github.io/#experience): Details of building web platforms and meetups for local AI developer communities.
+- [NSOC Technical Lead](https://chiragvishnoi-01.github.io/#experience): Experience managing open-source repositories and conducting secure development workshops.
+- [Freelance Works](https://chiragvishnoi-01.github.io/#experience): Delivery details for custom responsive client applications and themes.

@@ -138,7 +138,7 @@ export function Contact() {
             onBlur={() => setIsFocused(false)}
             style={{ colorScheme: 'dark' }}
           />
-          <label htmlFor="name" className="absolute left-5 top-4 text-gray-500 font-mono transition-all peer-focus:-top-3 peer-focus:text-xs peer-focus:text-red-500 peer-valid:-top-3 peer-valid:text-xs peer-valid:text-red-500 bg-[#0a0a0a] px-2 rounded">
+          <label htmlFor="name" className="absolute left-5 top-4 text-gray-400 font-mono transition-all peer-focus:-top-3 peer-focus:text-xs peer-focus:text-red-500 peer-valid:-top-3 peer-valid:text-xs peer-valid:text-red-500 bg-[#0a0a0a] px-2 rounded">
             Your Identity
           </label>
         </div>
@@ -155,7 +155,7 @@ export function Contact() {
             onBlur={() => setIsFocused(false)}
             style={{ colorScheme: 'dark' }}
           />
-          <label htmlFor="email" className="absolute left-5 top-4 text-gray-500 font-mono transition-all peer-focus:-top-3 peer-focus:text-xs peer-focus:text-blue-500 peer-valid:-top-3 peer-valid:text-xs peer-valid:text-blue-500 bg-[#0a0a0a] px-2 rounded">
+          <label htmlFor="email" className="absolute left-5 top-4 text-gray-400 font-mono transition-all peer-focus:-top-3 peer-focus:text-xs peer-focus:text-blue-500 peer-valid:-top-3 peer-valid:text-xs peer-valid:text-blue-500 bg-[#0a0a0a] px-2 rounded">
             Comms Frequency (Email)
           </label>
         </div>
@@ -172,7 +172,7 @@ export function Contact() {
             onBlur={() => setIsFocused(false)}
             style={{ colorScheme: 'dark' }}
           ></textarea>
-          <label htmlFor="message" className="absolute left-5 top-6 text-gray-500 font-mono transition-all peer-focus:-top-1 peer-focus:text-xs peer-focus:text-red-500 peer-valid:-top-1 peer-valid:text-xs peer-valid:text-red-500 bg-[#0a0a0a] px-2 rounded">
+          <label htmlFor="message" className="absolute left-5 top-6 text-gray-400 font-mono transition-all peer-focus:-top-1 peer-focus:text-xs peer-focus:text-red-500 peer-valid:-top-1 peer-valid:text-xs peer-valid:text-red-500 bg-[#0a0a0a] px-2 rounded">
             The Mission Details
           </label>
         </div>
@@ -210,7 +210,7 @@ export function Contact() {
             href={social.url}
             target="_blank"
             rel="noopener noreferrer"
-            className={`text-gray-500 font-display text-2xl md:text-3xl uppercase tracking-tighter transition-all duration-300 ${social.color} hover:scale-110 hover-target`}
+            className={`text-gray-400 font-display text-2xl md:text-3xl uppercase tracking-tighter transition-all duration-300 ${social.color} hover:scale-110 hover-target`}
           >
             {social.name}
           </a>

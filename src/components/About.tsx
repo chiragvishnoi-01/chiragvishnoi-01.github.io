@@ -180,7 +180,7 @@ export function About() {
 
             {/* Skill bars */}
             <div ref={barsRef} className="mt-12 space-y-4">
-              <h4 className="font-mono text-xs text-gray-500 uppercase tracking-widest mb-6">Core Skills</h4>
+              <h4 className="font-mono text-xs text-gray-400 uppercase tracking-widest mb-6">Core Skills</h4>
               {skills.map((skill) => (
                 <div key={skill.label}>
                   <div className="flex justify-between mb-1">
@@ -256,7 +256,7 @@ export function About() {
                   Chirag Vishnoi
                 </h4>
                 <p className="text-red-400 font-mono text-xs tracking-widest mb-2">chirag.dev</p>
-                <p className="text-gray-500 font-mono text-[10px] tracking-widest mb-6">ID: SPDR-001 · INDIA</p>
+                <p className="text-gray-400 font-mono text-[10px] tracking-widest mb-6">ID: SPDR-001 · INDIA</p>
 
                 <div className="w-full space-y-4 text-left">
                   {[
@@ -267,7 +267,7 @@ export function About() {
                     { label: 'Status', value: '🟢 Open to Work' },
                   ].map((row) => (
                     <div key={row.label} className="flex justify-between border-b border-white/10 pb-2">
-                      <span className="text-gray-500 font-mono text-xs uppercase">{row.label}</span>
+                      <span className="text-gray-400 font-mono text-xs uppercase">{row.label}</span>
                       <span className="text-white font-mono text-xs font-bold text-right max-w-[55%]">{row.value}</span>
                     </div>
                   ))}

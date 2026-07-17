@@ -73,7 +73,7 @@ export default function App() {
         </Canvas>
       </div>
 
-      <div className="relative z-10 w-full">
+      <main className="relative z-10 w-full">
         <Hero />
         <About />
         <Experience />
@@ -85,16 +85,16 @@ export default function App() {
         {/* Footer */}
         <footer className="py-12 px-6 border-t border-white/5 bg-black/50 backdrop-blur-sm">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="text-gray-500 font-mono text-xs uppercase tracking-widest">
+            <div className="text-gray-400 font-mono text-xs uppercase tracking-widest">
               Copyright © {new Date().getFullYear()} | Made by <a href="https://www.linkedin.com/in/chiragvishnoi01/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-500 transition-colors cursor-pointer">chirag vishnoi</a>
             </div>
-            <div className="flex gap-6 font-mono text-xs uppercase tracking-widest text-gray-500">
+            <div className="flex gap-6 font-mono text-xs uppercase tracking-widest text-gray-400">
               <a href="#home" className="hover:text-white transition-colors">Back to Top</a>
               <a href="#contact" className="hover:text-white transition-colors">Get in Touch</a>
             </div>
           </div>
         </footer>
-      </div>
+      </main>
     </div>
   );
 }

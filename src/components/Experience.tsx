@@ -275,7 +275,7 @@ export function Experience() {
               {syncState === 'syncing' ? 'Syncing...' : 'Sync LinkedIn Data'}
             </button>
             
-            <div className="flex items-center gap-2 font-mono text-xs text-gray-500">
+            <div className="flex items-center gap-2 font-mono text-xs text-gray-400">
               <span className={`w-2.5 h-2.5 rounded-full ${syncState === 'synced' ? 'bg-green-500 animate-pulse shadow-[0_0_8px_#22c55e]' : 'bg-red-500'}`}></span>
               <span>{syncState === 'synced' ? 'LIVE SYNC ACTIVE' : 'DATABASE OFFLINE'}</span>
             </div>
@@ -294,7 +294,7 @@ export function Experience() {
                 <span className="w-3 h-3 rounded-full bg-yellow-500/80"></span>
                 <span className="w-3 h-3 rounded-full bg-green-500/80"></span>
               </div>
-              <div className="flex items-center gap-1.5 text-[10px] font-mono text-gray-500 uppercase tracking-widest">
+              <div className="flex items-center gap-1.5 text-[10px] font-mono text-gray-400 uppercase tracking-widest">
                 <Terminal className="w-3.5 h-3.5" />
                 <span>LINKEDIN_SYNC_HELPER.EXE</span>
               </div>
@@ -311,14 +311,14 @@ export function Experience() {
                 </div>
               ))}
               {syncState === 'syncing' && (
-                <div className="flex items-center gap-2 mt-4 text-gray-500">
+                <div className="flex items-center gap-2 mt-4 text-gray-400">
                   <span className="animate-ping w-1.5 h-1.5 rounded-full bg-green-400"></span>
                   <span>FETCHING METADATA PROTOCOLS...</span>
                 </div>
               )}
               {syncState === 'idle' && (
                 <div className="flex flex-col items-center justify-center h-full text-center space-y-4 py-8">
-                  <p className="text-gray-500 uppercase tracking-widest text-xs">
+                  <p className="text-gray-400 uppercase tracking-widest text-xs">
                     Ready to load secure resume achievements
                   </p>
                   <button 
@@ -341,7 +341,7 @@ export function Experience() {
             <div className="flex border-b border-white/10">
               <button 
                 onClick={() => setActiveTab('experience')}
-                className={`pb-4 px-6 font-display text-2xl uppercase tracking-wider relative transition-colors hover-target ${activeTab === 'experience' ? 'text-red-500' : 'text-gray-500 hover:text-white'}`}
+                className={`pb-4 px-6 font-display text-2xl uppercase tracking-wider relative transition-colors hover-target ${activeTab === 'experience' ? 'text-red-500' : 'text-gray-400 hover:text-white'}`}
               >
                 <span>Mission Logs (Experience)</span>
                 {activeTab === 'experience' && (
@@ -350,7 +350,7 @@ export function Experience() {
               </button>
               <button 
                 onClick={() => setActiveTab('achievements')}
-                className={`pb-4 px-6 font-display text-2xl uppercase tracking-wider relative transition-colors hover-target ${activeTab === 'achievements' ? 'text-blue-500' : 'text-gray-500 hover:text-white'}`}
+                className={`pb-4 px-6 font-display text-2xl uppercase tracking-wider relative transition-colors hover-target ${activeTab === 'achievements' ? 'text-blue-500' : 'text-gray-400 hover:text-white'}`}
               >
                 <span>Tactical Triumphs (Achievements)</span>
                 {activeTab === 'achievements' && (
@@ -379,7 +379,7 @@ export function Experience() {
                       <div className="p-3 bg-red-500/10 border border-red-500/20 rounded-xl group-hover:border-red-500/40 group-hover:bg-red-500/20 transition-all duration-300">
                         {xp.icon}
                       </div>
-                      <span className="font-mono text-xs text-gray-500 font-bold uppercase tracking-wider">
+                      <span className="font-mono text-xs text-gray-400 font-bold uppercase tracking-wider">
                         {xp.period}
                       </span>
                     </div>
@@ -437,7 +437,7 @@ export function Experience() {
                       <div className="p-3 bg-blue-500/10 border border-blue-500/20 rounded-xl group-hover:border-blue-500/40 group-hover:bg-blue-500/20 transition-all duration-300">
                         {ach.icon}
                       </div>
-                      <span className="font-mono text-xs text-gray-500 font-bold uppercase tracking-wider">
+                      <span className="font-mono text-xs text-gray-400 font-bold uppercase tracking-wider">
                         {ach.period}
                       </span>
                     </div>
